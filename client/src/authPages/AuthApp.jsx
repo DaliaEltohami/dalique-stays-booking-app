@@ -33,7 +33,6 @@ const AuthApp = () => {
 
         {/* main content */}
         <main>
-          <HeroSection />
           <Outlet />
         </main>
       </Content>
