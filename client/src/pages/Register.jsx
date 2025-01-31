@@ -3,6 +3,8 @@ import Success from "../components/Success";
 import Loader from "../components/Loader";
 import Error from "../components/Error";
 import { useSignup } from "../hooks/useSignup";
+import HeroSection from "../components/HeroSection";
+import { Link } from "react-router-dom";
 
 const Register = () => {
   // Form state management
@@ -123,10 +125,19 @@ const Register = () => {
 
   return (
     <div className="container">
+      <HeroSection subtitle="Join for Exclusive Access" />
+
       <div className="row justify-content-center mt-5 text-center">
         <div className="col-md-8">
           {renderAlerts()}
           {renderRegister()}
+        </div>
+      </div>
+      <div className="row justify-content-center mt-2 text-center">
+        <div className="col-md-8">
+          <p>
+            Already have an account? <Link to="/login">Login</Link>
+          </p>
         </div>
       </div>
     </div>

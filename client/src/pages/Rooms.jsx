@@ -64,7 +64,7 @@ const Rooms = () => {
                     options={[
                       { value: "all", label: "All" },
                       { value: "standard", label: "Standard" },
-                      { value: "dulex", label: "Dulex" },
+                      { value: "deluxe", label: "Deluxe" },
                       { value: "family suite", label: "Family Suite" },
                     ]}
                   />

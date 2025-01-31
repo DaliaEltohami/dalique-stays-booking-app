@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useLogin } from "../hooks/useLogin";
 import Error from "../components/Error";
+import HeroSection from "../components/HeroSection";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -14,6 +16,8 @@ const Login = () => {
 
   return (
     <div className="container">
+      <HeroSection subtitle="Unlock Your World" />
+
       <div className="row justify-content-center mt-5 text-center">
         <div className="col-md-8">
           <div className="bs p-3">
@@ -50,6 +54,13 @@ const Login = () => {
               </button>
             </form>
           </div>
+        </div>
+      </div>
+      <div className="row justify-content-center mt-2 text-center">
+        <div className="col-md-8">
+          <p>
+            Don't have an account? <Link to="/register">Register</Link>
+          </p>
         </div>
       </div>
     </div>

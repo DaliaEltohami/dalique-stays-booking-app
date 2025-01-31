@@ -7,6 +7,7 @@ import { CalendarOutlined, SearchOutlined } from "@ant-design/icons";
 import useRooms from "../hooks/useRooms";
 import Loader from "./Loader";
 import Error from "./Error";
+import HeroSection from "./HeroSection";
 
 const DatesForm = () => {
   const [startDate, setStartDate] = useState("");
@@ -52,6 +53,8 @@ const DatesForm = () => {
 
   return (
     <div className="container mt-4">
+      <HeroSection subtitle="Where Luxury Meets Comfort" />
+
       <div className="row mb-4 justify-content-center">
         <div className="col-md-6">
           <Card

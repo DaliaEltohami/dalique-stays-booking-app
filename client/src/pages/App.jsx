@@ -23,7 +23,6 @@ function App() {
 
         {/* main content */}
         <main>
-          <HeroSection />
           <Outlet />
         </main>
       </Content>
