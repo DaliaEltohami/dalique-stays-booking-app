@@ -29,9 +29,7 @@ const AuthApp = () => {
       </Header>
 
       <Content className="site-content">
-        <video autoPlay mutes playsInline loop className="bg-overlay">
-          <source src="/assets/hotel-building.mp4" type="video/mp4" />
-        </video>
+        <div className="bg-overlay"></div>
 
         {/* main content */}
         <main>
