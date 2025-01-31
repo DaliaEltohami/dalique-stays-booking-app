@@ -26,6 +26,10 @@ body {
   color: white !important;
 }
 
+.navbar-toggler-icon {
+  color: #fff;
+}
+
 .App {
   text-align: center;
 }
