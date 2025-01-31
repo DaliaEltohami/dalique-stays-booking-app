@@ -36,8 +36,12 @@
   top: 0;
   left: 0;
   bottom: 0;
+  right: 0;
   z-index: -1;
-  opacity: 30%;
+  opacity: 10%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://images.unsplash.com/photo-1572177215152-32f247303126?q=80&w=3027&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
 
 .site-content {
